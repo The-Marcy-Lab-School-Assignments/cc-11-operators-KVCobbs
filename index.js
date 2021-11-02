@@ -1,22 +1,26 @@
 //1
-function areBothSame(x, y){
-  if(x == y) {
-      console.log('true')
+function areBothSame(arg1, arg2){
+  if(arg1 == arg2) {
+      console.log(true)
   } else 
-      console.log('false')
+      console.log(false)
 }
 
 //2
-function areBothEqual(){
-  if( x === y) {
-      console.log('true')
+function areBothEqual(arg1, arg2){
+  if( arg1 === arg2) {
+      console.log(true)
   } else 
-  console.log('false')
+  console.log(false)
 }
 
 //3
-function areAllFourEqual(){
-  
+function areAllFourEqual(arg1,arg2,arg3,arg4){
+  if(arg1 == arg2 && arg1 == arg3 && arg1 == arg4) {
+      console.log(true)
+  } else {
+      console.log(false)
+  }
 }
 
 
@@ -31,4 +35,4 @@ function areAllFourSameOrEqual(){
 }
 
 
-//areBothSame(4, 6)
+areBothSame(4, "six")
